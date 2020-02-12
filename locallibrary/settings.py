@@ -44,7 +44,7 @@ if DEBUG:
    DEBUG_TOOLBAR_CONFIG = {
        'SHOW_TOOLBAR_CALLBACK': lambda x: True
    }
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
 # Application definition
@@ -57,9 +57,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    #'devserver',
     'django.contrib.staticfiles',
     'debug_toolbar',
     'catalog.apps.CatalogConfig',
+    'django_doc.apps.DjangoDocConfig',
 ]
 
 MIDDLEWARE = [
