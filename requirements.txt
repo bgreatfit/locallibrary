@@ -5,7 +5,7 @@ colorama==0.4.1
 cycler==0.10.0
 decorator==4.4.1
 Django==2.2
-django-debug-toolbar==1.11
+django-debug-toolbar==1.11.1
 django-devserver==0.8.0
 Faker==1.0.2
 guppy3==3.0.9
@@ -53,7 +53,7 @@ colorama==0.4.1
 cycler==0.10.0
 decorator==4.4.1
 Django==2.2
-django-debug-toolbar==1.11
+django-debug-toolbar==1.11.1
 django-devserver==0.8.0
 Faker==1.0.2
 guppy3==3.0.9
